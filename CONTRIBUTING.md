@@ -34,20 +34,29 @@ Wallpapers are distributed as release assets, not tracked in git, so:
 2. Include: author, source (if adapted), license of the image and a short
    description.
 3. Maintainers review and optimize the image, then include it in the next
-   `background.zip` release. Release notes credit every author.
+   `background.zip` release. Every published `background.zip` bundles the
+   `LICENSE` text and a `CREDITS.md` file, and the release notes credit each
+   author, so attribution travels with the images as CC BY 4.0 requires.
 
 For documentation, open a regular PR adding your Markdown file (English).
 
 ## Licensing of contributions
 
-By submitting a contribution you agree that:
-
-- Images and documentation are licensed under
-  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- Source code (scripts, tooling) is licensed under the
-  [MIT License](LICENSE-MIT).
-
-You keep the copyright of your work and are always credited.
+- **Wallpaper images and documentation** you contribute are licensed under
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (inbound =
+  outbound).
+- **Source code** contributions are not covered by CC BY 4.0; code may be
+  distributed under the [MIT License](LICENSE-MIT) unless stated otherwise.
+- You keep the copyright of your work and are always credited.
+- You confirm that you own the rights to the material or have explicit
+  permission from the author, and that it does not infringe third-party
+  rights. This includes any people or characters depicted in the artwork.
+- If you include third-party code, its original license still applies and
+  must be kept.
+- No trademark rights are granted: the *equisdots* and *xscriptor* names and
+  logos remain the property of their owner.
+- Submissions with unclear provenance are rejected to keep the project safe
+  from DMCA takedowns.
 
 ## Style
 
