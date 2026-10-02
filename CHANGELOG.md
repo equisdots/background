@@ -24,3 +24,6 @@ Dates use YYYY-MM-DD.
 ### Documentation
 
 - README links the interactive scene contract.
+- `docs/scene-guide.md`: complete guide to interactive scenes (how they work,
+  installation, canvas API, allowed and forbidden features, performance,
+  debugging and publishing), linked from the README and the scene contract.
