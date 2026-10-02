@@ -33,7 +33,10 @@ and unpacks that archive during setup. The wallpaper fetch/apply logic itself
 lives in [`equisdots/davincix`](https://github.com/equisdots/davincix).
 
 The interactive scene contract (directory layout, palette behaviour, catalog)
-is documented in [docs/interactive-scenes.md](docs/interactive-scenes.md).
+is documented in [docs/interactive-scenes.md](docs/interactive-scenes.md). The
+complete guide to writing, installing and understanding scenes, including what
+the `xwww` scene engine does and does not support, is
+[docs/scene-guide.md](docs/scene-guide.md).
 
 ## Download
 

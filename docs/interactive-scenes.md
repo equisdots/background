@@ -1,5 +1,9 @@
 # Interactive scenes
 
+This document covers the directory contract, catalog and authoring summary. The
+complete guide (installation, canvas API, allowed and forbidden features,
+performance) is [scene-guide.md](scene-guide.md).
+
 Besides still images and videos, the collection can ship **interactive
 scenes**: wallpapers rendered by the `xwww` scene engine
 ([`x-ports/xwww`](https://github.com/x-ports/xwww), `scene` feature). A scene
