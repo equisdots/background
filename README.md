@@ -32,6 +32,9 @@ The installer ([`equisdots/dots`](https://github.com/equisdots/dots)) downloads
 and unpacks that archive during setup. The wallpaper fetch/apply logic itself
 lives in [`equisdots/davincix`](https://github.com/equisdots/davincix).
 
+The interactive scene contract (directory layout, palette behaviour, catalog)
+is documented in [docs/interactive-scenes.md](docs/interactive-scenes.md).
+
 ## Download
 
 Latest collection:
