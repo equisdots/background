@@ -42,6 +42,7 @@ readable.
 | `astro-palette` | Astronaut line art on a transparent cutout (`astro.png`) | Original static color cards replaced by live swatch cards (`bg`, `color0..color15`, `fg`) with labels and hex codes. |
 | `astro-ascii` | ASCII-art astronaut (`ascii.png`, stencil with alpha = ink coverage) | Keeps the original glyph colors and adds a soft foreground tint; includes the same live swatch cards. |
 | `ascii-astro` | Refined ASCII render based on `astro-ascii/base2.jpg` | Same system as `astro-ascii`; kept as a separate directory so the previous version remains available and the change stays reversible. |
+| `matrix-rain` | Palette-driven glyph rain (`XSCRIPTORDEV` plus geometric glyphs, Hack Nerd Font) | Port of the `ColorRain` effect from `@xscriptor/xbackgrounds`: one glyph per column over a fading trail, stepped per cell so characters stay crisp, with colors from `workspaceActive` and `color1..6`. |
 
 ## The card block
 
