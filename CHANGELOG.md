@@ -15,6 +15,9 @@ Dates use YYYY-MM-DD.
     foreground tint, with the same live cards.
   - `ascii-astro`: refined ASCII render based on `astro-ascii/base2.jpg`, kept as a separate scene
     so the previous one remains available.
+  - `matrix-rain`: palette-driven glyph rain ported from the `ColorRain` effect of
+    `@xscriptor/xbackgrounds` (one glyph per column over a fading trail, stepped per cell so the
+    characters stay crisp, with colors from `workspaceActive` and `color1..6`).
 - `docs/interactive-scenes.md`: scene directory contract, thumbnail rule, palette behaviour,
   catalog and authoring guide.
 
