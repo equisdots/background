@@ -9,6 +9,16 @@ Dates use YYYY-MM-DD.
 
 - `scenes/index.json`: machine-readable metadata for every scene (slug, name,
   author, description, assets, palette awareness, license).
+- Three new scenes, each with a generated `base.png` cover:
+  - `kanji-rain`: matrix-style rain with Japanese kana/kanji, Chinese
+    characters and `X` (needs `noto-fonts-cjk`).
+  - `cartesian-veil`: a faint cartesian plane with symmetric points and a
+    smooth self-drawing curve.
+  - `asymptote-veil`: the `f(x) = 1/x` graph approaching its asymptotes.
+- Ten math/physics visualisations with |_ corner brackets, each with a
+  generated `base.png` cover: `fourier-synth`, `lissajous-orbit`,
+  `field-lines`, `riemann-sum`, `bezier-mesh`, `phase-portrait`,
+  `monte-carlo`, `bifurcation`, `descent-path` and `interference`.
 
 ### Changed
 

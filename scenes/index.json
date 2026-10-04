@@ -12,11 +12,17 @@
       "path": "scenes/astro-palette",
       "entry": "scene.js",
       "thumbnail": "base.jpg",
-      "assets": ["astro.png"],
+      "assets": [
+        "astro.png"
+      ],
       "paletteAware": true,
       "interactive": true,
       "animated": false,
-      "tags": ["astronaut", "palette", "cards"],
+      "tags": [
+        "astronaut",
+        "palette",
+        "cards"
+      ],
       "added": "2026-10-02",
       "license": "CC BY 4.0",
       "codeLicense": "MIT"
@@ -29,12 +35,21 @@
       "path": "scenes/astro-ascii",
       "entry": "scene.js",
       "thumbnail": "base.jpg",
-      "assets": ["ascii.png"],
-      "sourceArt": ["base2.jpg"],
+      "assets": [
+        "ascii.png"
+      ],
+      "sourceArt": [
+        "base2.jpg"
+      ],
       "paletteAware": true,
       "interactive": true,
       "animated": false,
-      "tags": ["astronaut", "ascii", "palette", "cards"],
+      "tags": [
+        "astronaut",
+        "ascii",
+        "palette",
+        "cards"
+      ],
       "added": "2026-10-02",
       "license": "CC BY 4.0",
       "codeLicense": "MIT"
@@ -47,11 +62,18 @@
       "path": "scenes/ascii-astro",
       "entry": "scene.js",
       "thumbnail": "base.jpg",
-      "assets": ["ascii.png"],
+      "assets": [
+        "ascii.png"
+      ],
       "paletteAware": true,
       "interactive": true,
       "animated": false,
-      "tags": ["astronaut", "ascii", "palette", "cards"],
+      "tags": [
+        "astronaut",
+        "ascii",
+        "palette",
+        "cards"
+      ],
       "added": "2026-10-02",
       "license": "CC BY 4.0",
       "codeLicense": "MIT"
@@ -68,8 +90,303 @@
       "paletteAware": true,
       "interactive": true,
       "animated": true,
-      "tags": ["matrix", "rain", "glyphs", "palette"],
+      "tags": [
+        "matrix",
+        "rain",
+        "glyphs",
+        "palette"
+      ],
       "added": "2026-10-02",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "kanji-rain",
+      "name": "Kanji Rain",
+      "author": "xscriptor",
+      "description": "The matrix-rain effect with a Japanese and Chinese glyph pool plus the letter X, in the palette colors (requires a CJK font, noto-fonts-cjk).",
+      "path": "scenes/kanji-rain",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "matrix",
+        "rain",
+        "kanji",
+        "hanzi",
+        "cjk"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "cartesian-veil",
+      "name": "Cartesian Veil",
+      "author": "xscriptor",
+      "description": "A faint cartesian plane filling the screen: symmetric sample points on a damped even function, a smooth Catmull-Rom curve that reveals itself through them, and the formula centred below. Thin lines, distinct palette colours.",
+      "path": "scenes/cartesian-veil",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "cartesian",
+        "curve",
+        "points",
+        "minimal"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "asymptote-veil",
+      "name": "Asymptote Veil",
+      "author": "xscriptor",
+      "description": "The graph of f(x) = 1/x drawn towards its limits: dashed asymptotes on both axes, mirrored branches that slow down as they approach x = 0, and the formula and limits centred below.",
+      "path": "scenes/asymptote-veil",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "asymptote",
+        "hyperbola",
+        "limits",
+        "minimal"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "fourier-synth",
+      "name": "Fourier Synth",
+      "author": "xscriptor",
+      "description": "A square wave rebuilt from its odd harmonics: the first four components, the partial sum sharpening as N grows, a 1/n spectrum and the formula.",
+      "path": "scenes/fourier-synth",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "fourier",
+        "harmonics",
+        "spectrum",
+        "minimal"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "lissajous-orbit",
+      "name": "Lissajous Orbit",
+      "author": "xscriptor",
+      "description": "Parametric Lissajous curves: ghost ratios, a glowing head tracing the active 3:2/5:4/7:5/9:7 ratio with a trailing arc, coordinates and phase read out.",
+      "path": "scenes/lissajous-orbit",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "lissajous",
+        "parametric",
+        "curves"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "field-lines",
+      "name": "Field Lines",
+      "author": "xscriptor",
+      "description": "The rotating vector field F=(-y, x): a lattice quiver, 90 particles on closed orbits with tails, curl/divergence readouts and the formula.",
+      "path": "scenes/field-lines",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "vector-field",
+        "flow",
+        "physics"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "riemann-sum",
+      "name": "Riemann Sum",
+      "author": "xscriptor",
+      "description": "Left Riemann rectangles for f(x)=1.2+0.8 sin(x/1.8): n steps 4 to 48 and the area estimate converges to the analytic value with live error.",
+      "path": "scenes/riemann-sum",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "integral",
+        "riemann",
+        "calculus"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "bezier-mesh",
+      "name": "Bezier Mesh",
+      "author": "xscriptor",
+      "description": "Three cubic Bezier meshes: dashed control polygons, live control points, a de Casteljau rider and the Bernstein formula.",
+      "path": "scenes/bezier-mesh",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "bezier",
+        "curves",
+        "geometry"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "phase-portrait",
+      "name": "Phase Portrait",
+      "author": "xscriptor",
+      "description": "The damped pendulum in phase space: 35 precomputed trajectories, a vector-field quiver and a rider with theta/omega/energy readouts.",
+      "path": "scenes/phase-portrait",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "physics",
+        "pendulum",
+        "phase-space"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "monte-carlo",
+      "name": "Monte Carlo",
+      "author": "xscriptor",
+      "description": "Estimating pi by throwing 3200 points at a square and its inscribed circle; the running 4*N_in/N estimate converges and resets.",
+      "path": "scenes/monte-carlo",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "statistics",
+        "monte-carlo",
+        "pi"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "bifurcation",
+      "name": "Bifurcation",
+      "author": "xscriptor",
+      "description": "The logistic map attractor from r=2.5 to 4: period doubling into chaos, revealed column by column with the current r marked.",
+      "path": "scenes/bifurcation",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "chaos",
+        "logistic",
+        "bifurcation"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "descent-path",
+      "name": "Descent Path",
+      "author": "xscriptor",
+      "description": "Gradient descent into f=0.5(x^2/4+y^2): contour ellipses, downhill arrows, a 60-step path and loss/eta/step readouts.",
+      "path": "scenes/descent-path",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "optimization",
+        "gradient-descent",
+        "contours"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "interference",
+      "name": "Interference",
+      "author": "xscriptor",
+      "description": "Two coherent sources: expanding wavefront rings and an intensity lattice following cos(k dr - wt), with nodal lines drifting with phase.",
+      "path": "scenes/interference",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "physics",
+        "waves",
+        "interference",
+        "optics"
+      ],
+      "added": "2026-10-04",
       "license": "CC BY 4.0",
       "codeLicense": "MIT"
     }
