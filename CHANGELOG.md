@@ -19,6 +19,8 @@ Dates use YYYY-MM-DD.
   generated `base.png` cover: `fourier-synth`, `lissajous-orbit`,
   `field-lines`, `riemann-sum`, `bezier-mesh`, `phase-portrait`,
   `monte-carlo`, `bifurcation`, `descent-path` and `interference`.
+- Four veil-style scenes: `epicycle-veil`, `matrix-veil`, `kepler-veil` and
+  `complex-veil`, each with a generated `base.png` cover.
 
 ### Changed
 
