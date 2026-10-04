@@ -67,6 +67,10 @@ description, assets, license) lives in
 | `bifurcation` | Logistic map attractor for `r ∈ [2.5, 4]` | Period doubling into chaos revealed column by column with the current `r` marked. |
 | `descent-path` | Gradient descent into `f = ½(x²/4 + y²)` | Contour ellipses, downhill arrows, a 60-step path and `loss / η / step` readouts. |
 | `interference` | Two coherent point sources | Expanding wavefront rings plus an intensity lattice following `cos(k·Δr − ωt)`, nodal lines drifting with phase. |
+| `epicycle-veil` | Fifteen epicycles projecting a square wave | The chain of odd Fourier terms on the left, the dashed projection onto the time axis on the right and a single-dot tracer on the wave. |
+| `matrix-veil` | A live 2×2 linear map | The transformed grid, the images of the basis vectors and of the unit square (`|det A|`), plus a rider on a rotating point. |
+| `kepler-veil` | Eccentric Kepler orbit | The sun at the focus, the constant-time swept wedge widening near aphelion, live radius/velocity vectors and the orbit formula. |
+| `complex-veil` | n-th roots of unity on the Argand plane | Rotating polygon, spokes, unit circle and a single-dot tail on the highlighted root; `n` steps 3..12. |
 
 ## The card block
 

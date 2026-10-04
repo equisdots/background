@@ -389,6 +389,94 @@
       "added": "2026-10-04",
       "license": "CC BY 4.0",
       "codeLicense": "MIT"
+    },
+    {
+      "slug": "epicycle-veil",
+      "name": "Epicycle Veil",
+      "author": "xscriptor",
+      "description": "A chain of fifteen odd Fourier terms projects a square wave onto the time axis; the chain, the projection connector and a single-dot tracer share the palette.",
+      "path": "scenes/epicycle-veil",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "fourier",
+        "epicycles",
+        "waveform"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "matrix-veil",
+      "name": "Matrix Veil",
+      "author": "xscriptor",
+      "description": "A live linear map A(t) deforms the grid, the basis vectors and the unit square; the determinant is read out and a rider traces the image of a rotating point.",
+      "path": "scenes/matrix-veil",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "linear-algebra",
+        "matrix",
+        "determinant"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "kepler-veil",
+      "name": "Kepler Veil",
+      "author": "xscriptor",
+      "description": "An eccentric orbit with the sun at the focus: the constant-time wedge widens near aphelion, and the radius and velocity vectors update live.",
+      "path": "scenes/kepler-veil",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "physics",
+        "orbit",
+        "kepler",
+        "geometry"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "complex-veil",
+      "name": "Complex Veil",
+      "author": "xscriptor",
+      "description": "The Argand diagram of the n-th roots of unity: rotating polygon, spokes, unit circle and a single-dot tail on the highlighted root, n stepping 3..12.",
+      "path": "scenes/complex-veil",
+      "entry": "scene.js",
+      "thumbnail": "base.png",
+      "assets": [],
+      "paletteAware": true,
+      "interactive": true,
+      "animated": true,
+      "tags": [
+        "math",
+        "complex",
+        "roots-of-unity",
+        "argand"
+      ],
+      "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
     }
   ]
 }
