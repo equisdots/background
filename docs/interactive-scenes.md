@@ -54,6 +54,19 @@ description, assets, license) lives in
 | `astro-ascii` | ASCII-art astronaut (`ascii.png`, stencil with alpha = ink coverage) | Keeps the original glyph colors and adds a soft foreground tint; includes the same live swatch cards. |
 | `ascii-astro` | Refined ASCII render based on `astro-ascii/base2.jpg` | Same system as `astro-ascii`; kept as a separate directory so the previous version remains available and the change stays reversible. |
 | `matrix-rain` | Palette-driven glyph rain (`XSCRIPTORDEV` plus geometric glyphs, Hack Nerd Font) | Port of the `ColorRain` effect from `@xscriptor/xbackgrounds`: one glyph per column over a fading trail, stepped per cell so characters stay crisp, with colors from `workspaceActive` and `color1..6`. |
+| `kanji-rain` | Matrix-style falling glyphs: Japanese kana/kanji, Chinese characters and `X` (`Noto Sans CJK JP`) | Same cell-stepped trail as `matrix-rain` with a CJK pool; requires the `noto-fonts-cjk` package (characters render as boxes without it). |
+| `cartesian-veil` | Faint cartesian plane with symmetric points and a smooth curve | Thirteen sample points mirrored on the y axis share palette colours; a Catmull-Rom curve reveals itself left to right, lights each point as it passes, then holds and fades; the formula sits centred below. |
+| `asymptote-veil` | Graph of `f(x) = 1/x` approaching its asymptotes | Dashed asymptotes on both axes, mirrored branches revealed with a geometric ease that slows down near `x = 0`, head labels (`x → 0⁺` / `x → 0⁻`) and the formula plus limits below the centre. |
+| `fourier-synth` | Square wave rebuilt from its odd harmonics | Four coloured components, the partial sum sharpening as `N` grows, a `1/n` spectrum and the Gibbs phenomenon read out. |
+| `lissajous-orbit` | Parametric Lissajous curves | Ghost ratios hang faintly while a glowing head traces the active `3:2 / 5:4 / 7:5 / 9:7` ratio with a trailing arc and live coordinates. |
+| `field-lines` | Rotating vector field `F = (−y, x)` | Lattice quiver, 90 particles on closed orbits with fading tails, value rings, curl/divergence readouts. |
+| `riemann-sum` | Left Riemann rectangles under `f(x) = 1.2 + 0.8 sin(x/1.8)` | `n` steps `4 → 48` and the estimate converges to the analytic area with live error. |
+| `bezier-mesh` | Three cubic Bézier meshes | Dashed control polygons, live control points, a de Casteljau rider and the Bernstein formula. |
+| `phase-portrait` | Damped pendulum in phase space | 35 precomputed trajectories, a vector-field quiver and a rider with `θ/ω/energy` readouts. |
+| `monte-carlo` | Estimating `π` by point throwing | 3200 deterministic points over a square and its inscribed circle; `4·N_in/N` converges and resets. |
+| `bifurcation` | Logistic map attractor for `r ∈ [2.5, 4]` | Period doubling into chaos revealed column by column with the current `r` marked. |
+| `descent-path` | Gradient descent into `f = ½(x²/4 + y²)` | Contour ellipses, downhill arrows, a 60-step path and `loss / η / step` readouts. |
+| `interference` | Two coherent point sources | Expanding wavefront rings plus an intensity lattice following `cos(k·Δr − ωt)`, nodal lines drifting with phase. |
 
 ## The card block
 
