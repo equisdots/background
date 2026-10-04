@@ -544,7 +544,7 @@ for (let i = 0; i < 120; i++) {
 
 ## Publishing a scene to this collection
 
-1. Add the directory under the repository root, for example `my-scene/` with
+1. Add the directory under `scenes/`, for example `scenes/my-scene/` with
    `scene.js` and `base.jpg`.
 2. Add a row to the catalog in
    [interactive-scenes.md](interactive-scenes.md) describing the art and the

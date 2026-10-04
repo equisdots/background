@@ -41,6 +41,13 @@ readable.
 
 ## Catalog
 
+The scenes of this collection live under `scenes/` (unlike the picture packs,
+they are committed to git and downloaded from the repository, not from a
+release asset). Each directory is copied as one entry into the wallpaper
+collection. Machine-readable metadata for every scene (slug, name, author,
+description, assets, license) lives in
+[`scenes/index.json`](../scenes/index.json).
+
 | Scene | Art | Notes |
 |---|---|---|
 | `astro-palette` | Astronaut line art on a transparent cutout (`astro.png`) | Original static color cards replaced by live swatch cards (`bg`, `color0..color15`, `fg`) with labels and hex codes. |

@@ -32,6 +32,11 @@ The installer ([`equisdots/dots`](https://github.com/equisdots/dots)) downloads
 and unpacks that archive during setup. The wallpaper fetch/apply logic itself
 lives in [`equisdots/davincix`](https://github.com/equisdots/davincix).
 
+Besides the picture packs, the **interactive scenes** (dynamic wallpapers for
+the `xwww` scene engine) are committed under `scenes/`; the installer offers
+them through `equisdots/hyprland` (`scripts/scenes.sh`) and installs each scene
+directory into `~/.config/hypr/wallpapers/`.
+
 The interactive scene contract (directory layout, palette behaviour, catalog)
 is documented in [docs/interactive-scenes.md](docs/interactive-scenes.md). The
 complete guide to writing, installing and understanding scenes, including what
