@@ -3,6 +3,19 @@
 All notable changes to the wallpaper collection are documented here.
 Dates use YYYY-MM-DD.
 
+## [2026-10-04]
+
+### Added
+
+- `scenes/index.json`: machine-readable metadata for every scene (slug, name,
+  author, description, assets, palette awareness, license).
+
+### Changed
+
+- Scene directories moved under `scenes/` (from the repository root). They are
+  committed to git, so the installer fetches them from the repository rather
+  than from a release asset.
+
 ## [2026-10-02]
 
 ### Added
