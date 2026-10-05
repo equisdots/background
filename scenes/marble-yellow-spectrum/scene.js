@@ -20,6 +20,10 @@ const HAS_ACCENT = true;
    variants keep their distinct character instead of all collapsing to grey. */
 const ANCHOR = 3;
 
+/* Source artwork size, used to letterbox-free "cover" fit at any output. */
+const IMG_W = 2560;
+const IMG_H = 1440;
+
 function channels(hex) {
   const s = hex.replace(/^#/, "");
   return [
@@ -57,6 +61,21 @@ function secondary(p) {
   return p.foreground.hex;
 }
 
+/* Cover fit: scale the artwork to fill the canvas and crop the overflow, so a
+   4:3 or portrait wallpaper is never stretched on a 16:9 display. */
+function coverBox(ctx) {
+  const out = ctx.width / ctx.height;
+  const src = IMG_W / IMG_H;
+  if (out > src) {
+    const w = ctx.width;
+    const h = Math.round(w / src);
+    return [0, Math.round((ctx.height - h) / 2), w, h];
+  }
+  const h = ctx.height;
+  const w = Math.round(h * src);
+  return [Math.round((ctx.width - w) / 2), 0, w, h];
+}
+
 let signature = null;
 
 function render(t, ctx) {
@@ -69,13 +88,14 @@ function render(t, ctx) {
   }
   signature = next;
 
+  const box = coverBox(ctx);
   canvas.clear(p.background.hex);
-  canvas.image("shape.jpg", 0, 0, ctx.width, ctx.height);
-  canvas.remap(0, 0, ctx.width, ctx.height, paletteRamp(p), 1.0);
+  canvas.image("shape.jpg", box[0], box[1], box[2], box[3]);
+  canvas.remap(box[0], box[1], box[2], box[3], paletteRamp(p), 1.0);
 
   if (HAS_ACCENT) {
     canvas.alpha(0.55);
-    canvas.image_tinted("accent.png", 0, 0, ctx.width, ctx.height, secondary(p));
+    canvas.image_tinted("accent.png", box[0], box[1], box[2], box[3], secondary(p));
     canvas.alpha(1.0);
   }
 }
