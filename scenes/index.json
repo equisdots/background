@@ -487,7 +487,8 @@
       "entry": "scene.js",
       "thumbnail": "base.jpg",
       "assets": [
-        "shape.jpg"
+        "shape.jpg",
+        "shape_inv.jpg"
       ],
       "paletteAware": true,
       "interactive": false,
@@ -509,7 +510,8 @@
       "entry": "scene.js",
       "thumbnail": "base.jpg",
       "assets": [
-        "shape.jpg"
+        "shape.jpg",
+        "shape_inv.jpg"
       ],
       "paletteAware": true,
       "interactive": false,
@@ -531,7 +533,8 @@
       "entry": "scene.js",
       "thumbnail": "base.jpg",
       "assets": [
-        "shape.jpg"
+        "shape.jpg",
+        "shape_inv.jpg"
       ],
       "paletteAware": true,
       "interactive": false,
@@ -554,6 +557,7 @@
       "thumbnail": "base.jpg",
       "assets": [
         "shape.jpg",
+        "shape_inv.jpg",
         "accent.png"
       ],
       "paletteAware": true,
@@ -577,7 +581,8 @@
       "entry": "scene.js",
       "thumbnail": "base.jpg",
       "assets": [
-        "shape.jpg"
+        "shape.jpg",
+        "shape_inv.jpg"
       ],
       "paletteAware": true,
       "interactive": false,
@@ -599,7 +604,8 @@
       "entry": "scene.js",
       "thumbnail": "base.jpg",
       "assets": [
-        "shape.jpg"
+        "shape.jpg",
+        "shape_inv.jpg"
       ],
       "paletteAware": true,
       "interactive": false,
@@ -621,7 +627,8 @@
       "entry": "scene.js",
       "thumbnail": "base.jpg",
       "assets": [
-        "shape.jpg"
+        "shape.jpg",
+        "shape_inv.jpg"
       ],
       "paletteAware": true,
       "interactive": false,
@@ -644,7 +651,8 @@
       "entry": "scene.js",
       "thumbnail": "base.jpg",
       "assets": [
-        "shape.jpg"
+        "shape.jpg",
+        "shape_inv.jpg"
       ],
       "paletteAware": true,
       "interactive": false,
@@ -668,6 +676,7 @@
       "thumbnail": "base.jpg",
       "assets": [
         "shape.jpg",
+        "shape_inv.jpg",
         "accent.png"
       ],
       "paletteAware": true,
@@ -692,6 +701,7 @@
       "thumbnail": "base.jpg",
       "assets": [
         "shape.jpg",
+        "shape_inv.jpg",
         "accent.png"
       ],
       "paletteAware": true,
@@ -715,7 +725,8 @@
       "entry": "scene.js",
       "thumbnail": "base.jpg",
       "assets": [
-        "shape.jpg"
+        "shape.jpg",
+        "shape_inv.jpg"
       ],
       "paletteAware": true,
       "interactive": false,
@@ -738,7 +749,8 @@
       "entry": "scene.js",
       "thumbnail": "base.jpg",
       "assets": [
-        "shape.jpg"
+        "shape.jpg",
+        "shape_inv.jpg"
       ],
       "paletteAware": true,
       "interactive": false,
@@ -761,7 +773,8 @@
       "entry": "scene.js",
       "thumbnail": "base.jpg",
       "assets": [
-        "shape.jpg"
+        "shape.jpg",
+        "shape_inv.jpg"
       ],
       "paletteAware": true,
       "interactive": false,
@@ -784,7 +797,8 @@
       "entry": "scene.js",
       "thumbnail": "base.jpg",
       "assets": [
-        "shape.jpg"
+        "shape.jpg",
+        "shape_inv.jpg"
       ],
       "paletteAware": true,
       "interactive": false,
@@ -807,7 +821,8 @@
       "entry": "scene.js",
       "thumbnail": "base.jpg",
       "assets": [
-        "shape.jpg"
+        "shape.jpg",
+        "shape_inv.jpg"
       ],
       "paletteAware": true,
       "interactive": false,
@@ -831,6 +846,7 @@
       "thumbnail": "base.jpg",
       "assets": [
         "shape.jpg",
+        "shape_inv.jpg",
         "accent.png"
       ],
       "paletteAware": true,
@@ -855,6 +871,7 @@
       "thumbnail": "base.jpg",
       "assets": [
         "shape.jpg",
+        "shape_inv.jpg",
         "accent.png"
       ],
       "paletteAware": true,
