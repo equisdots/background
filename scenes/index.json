@@ -2,7 +2,7 @@
   "version": 1,
   "collection": "equisdots/background",
   "engine": "xwww",
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "scenes": [
     {
       "slug": "astro-palette",
@@ -475,6 +475,397 @@
         "argand"
       ],
       "added": "2026-10-04",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "abstract-black-strokes",
+      "name": "Abstract Black Strokes",
+      "author": "xscriptor",
+      "description": "Monochrome artwork recolored by remapping its Rec.709 luminance through the active xwww palette ramp; idle-free (repaints only when the palette changes).",
+      "path": "scenes/abstract-black-strokes",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "monochrome",
+        "palette"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "battlestation-mono-wide",
+      "name": "Battlestation Mono Wide",
+      "author": "xscriptor",
+      "description": "Monochrome artwork recolored by remapping its Rec.709 luminance through the active xwww palette ramp; idle-free (repaints only when the palette changes).",
+      "path": "scenes/battlestation-mono-wide",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "monochrome",
+        "palette"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "battlestation-mono",
+      "name": "Battlestation Mono",
+      "author": "xscriptor",
+      "description": "Monochrome artwork recolored by remapping its Rec.709 luminance through the active xwww palette ramp; idle-free (repaints only when the palette changes).",
+      "path": "scenes/battlestation-mono",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "monochrome",
+        "palette"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "bougainvillea-red-dark",
+      "name": "Bougainvillea Red Dark",
+      "author": "xscriptor",
+      "description": "Bougainvillea photograph split into a luminance layer plus a chroma accent stencil, recolored live through the active xwww palette.",
+      "path": "scenes/bougainvillea-red-dark",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg",
+        "accent.png"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "photo",
+        "flowers",
+        "palette"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "bridge-graffiti-bw",
+      "name": "Bridge Graffiti Bw",
+      "author": "xscriptor",
+      "description": "Monochrome artwork recolored by remapping its Rec.709 luminance through the active xwww palette ramp; idle-free (repaints only when the palette changes).",
+      "path": "scenes/bridge-graffiti-bw",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "monochrome",
+        "palette"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "leaves-film-grain-bw",
+      "name": "Leaves Film Grain Bw",
+      "author": "xscriptor",
+      "description": "Monochrome artwork recolored by remapping its Rec.709 luminance through the active xwww palette ramp; idle-free (repaints only when the palette changes).",
+      "path": "scenes/leaves-film-grain-bw",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "monochrome",
+        "palette"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "marble-black-gold",
+      "name": "Marble Black Gold",
+      "author": "xscriptor",
+      "description": "Marble artwork split into a Rec.709 luminance layer; recolored through the active xwww palette, anchored to the base16 slot matching its original hue so it keeps its identity across themes.",
+      "path": "scenes/marble-black-gold",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "marble",
+        "palette",
+        "abstract"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "marble-cyan-neon",
+      "name": "Marble Cyan Neon",
+      "author": "xscriptor",
+      "description": "Marble artwork split into a Rec.709 luminance layer; recolored through the active xwww palette, anchored to the base16 slot matching its original hue so it keeps its identity across themes.",
+      "path": "scenes/marble-cyan-neon",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "marble",
+        "palette",
+        "abstract"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "marble-green-neon-2",
+      "name": "Marble Green Neon 2",
+      "author": "xscriptor",
+      "description": "Marble artwork split into a Rec.709 luminance layer plus a secondary-hue accent stencil; recolored through the active xwww palette, anchored to the base16 slot matching its original hue so it keeps its identity across themes.",
+      "path": "scenes/marble-green-neon-2",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg",
+        "accent.png"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "marble",
+        "palette",
+        "abstract"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "marble-green-neon",
+      "name": "Marble Green Neon",
+      "author": "xscriptor",
+      "description": "Marble artwork split into a Rec.709 luminance layer plus a secondary-hue accent stencil; recolored through the active xwww palette, anchored to the base16 slot matching its original hue so it keeps its identity across themes.",
+      "path": "scenes/marble-green-neon",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg",
+        "accent.png"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "marble",
+        "palette",
+        "abstract"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "marble-ivory-gold",
+      "name": "Marble Ivory Gold",
+      "author": "xscriptor",
+      "description": "Marble artwork split into a Rec.709 luminance layer; recolored through the active xwww palette, anchored to the base16 slot matching its original hue so it keeps its identity across themes.",
+      "path": "scenes/marble-ivory-gold",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "marble",
+        "palette",
+        "abstract"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "marble-silver-black",
+      "name": "Marble Silver Black",
+      "author": "xscriptor",
+      "description": "Marble artwork split into a Rec.709 luminance layer; recolored through the active xwww palette, anchored to the base16 slot matching its original hue so it keeps its identity across themes.",
+      "path": "scenes/marble-silver-black",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "marble",
+        "palette",
+        "abstract"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "marble-violet-black",
+      "name": "Marble Violet Black",
+      "author": "xscriptor",
+      "description": "Marble artwork split into a Rec.709 luminance layer; recolored through the active xwww palette, anchored to the base16 slot matching its original hue so it keeps its identity across themes.",
+      "path": "scenes/marble-violet-black",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "marble",
+        "palette",
+        "abstract"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "marble-white-gold",
+      "name": "Marble White Gold",
+      "author": "xscriptor",
+      "description": "Marble artwork split into a Rec.709 luminance layer; recolored through the active xwww palette, anchored to the base16 slot matching its original hue so it keeps its identity across themes.",
+      "path": "scenes/marble-white-gold",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "marble",
+        "palette",
+        "abstract"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "marble-yellow-black",
+      "name": "Marble Yellow Black",
+      "author": "xscriptor",
+      "description": "Marble artwork split into a Rec.709 luminance layer; recolored through the active xwww palette, anchored to the base16 slot matching its original hue so it keeps its identity across themes.",
+      "path": "scenes/marble-yellow-black",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "marble",
+        "palette",
+        "abstract"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "marble-yellow-spectrum",
+      "name": "Marble Yellow Spectrum",
+      "author": "xscriptor",
+      "description": "Marble artwork split into a Rec.709 luminance layer plus a secondary-hue accent stencil; recolored through the active xwww palette, anchored to the base16 slot matching its original hue so it keeps its identity across themes.",
+      "path": "scenes/marble-yellow-spectrum",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg",
+        "accent.png"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "marble",
+        "palette",
+        "abstract"
+      ],
+      "added": "2026-10-05",
+      "license": "CC BY 4.0",
+      "codeLicense": "MIT"
+    },
+    {
+      "slug": "x",
+      "name": "X",
+      "author": "xscriptor",
+      "description": "Marble artwork split into a Rec.709 luminance layer plus a secondary-hue accent stencil; recolored through the active xwww palette, anchored to the base16 slot matching its original hue so it keeps its identity across themes.",
+      "path": "scenes/x",
+      "entry": "scene.js",
+      "thumbnail": "base.jpg",
+      "assets": [
+        "shape.jpg",
+        "accent.png"
+      ],
+      "paletteAware": true,
+      "interactive": false,
+      "animated": false,
+      "tags": [
+        "marble",
+        "palette",
+        "abstract"
+      ],
+      "added": "2026-10-05",
       "license": "CC BY 4.0",
       "codeLicense": "MIT"
     }
