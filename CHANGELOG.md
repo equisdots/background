@@ -33,7 +33,7 @@ Dates use YYYY-MM-DD.
 ### Added
 
 - **Interactive scenes**: directories rendered by the `xwww` scene engine, listed and applied by
-  davincix like any other wallpaper.
+  davinci like any other wallpaper.
   - `astro-palette`: astronaut line art on a transparent cutout with live palette swatch cards
     (background, `color0..color15` and foreground, with labels and hex codes).
   - `astro-ascii`: ASCII-art astronaut that keeps its original glyph colors and adds a soft

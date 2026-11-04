@@ -39,7 +39,7 @@ The equisdots stack ties everything together:
 
 - `xwww` renders frames and pushes them to the daemon.
 - `xwww-daemon` owns the layer surface and displays frames.
-- `davincix` is the wallpaper kernel: it lists scene directories next to images
+- `davinci` is the wallpaper kernel: it lists scene directories next to images
   and videos, applies them with an entry transition, and stores the active one.
 - The Quickshell picker shows scene directories as regular entries, using a
   cover image (`base.jpg`) as the thumbnail.
@@ -56,7 +56,7 @@ scene.js ──> xwww scene run ──> rendered frame ──> xwww-daemon ─�
 
 1. On start, `xwww scene run` asks the daemon for the outputs, creates one
    scene engine per output and renders the first frame. That frame carries the
-   entry transition requested by `davincix` (for example `fade` or `wipe`); the
+   entry transition requested by `davinci` (for example `fade` or `wipe`); the
    run loop waits for the transition duration before sending anything else.
 2. After that, every frame is sent as an instant transition. Frames are only
    sent when the canvas actually changed since the previous one, so a scene
@@ -71,7 +71,7 @@ scene.js ──> xwww scene run ──> rendered frame ──> xwww-daemon ─�
 
 ### Palette handling
 
-`davincix` runs scenes with `--palette equisdots`. That provider reads:
+`davinci` runs scenes with `--palette equisdots`. That provider reads:
 
 - the active palette slug from `~/.config/hypr/settings.json` (`bar.palette`,
   with the legacy `dock.palette` as fallback, and `x` as the final fallback);
@@ -95,7 +95,7 @@ The first frame of a scene uses the transition flags exactly like `xwww img`:
 `fade`, `wipe`, `grow`, `outer`, `wave`, `glitch`, `decrypt`, `dissolve`,
 `clock`, `zoom`, `pixelate`, `ripple`, `blinds`, `spiral`, `static`,
 `parallax` variants, `melt`, `shatter`, `simple`, directional and `random`.
-`davincix set <scene-dir>` resolves `random` against that full set. Later
+`davinci set <scene-dir>` resolves `random` against that full set. Later
 frames are always instant, and the run loop counts the transition from the
 moment the first frame is sent, so rendering the scene does not cut the
 animation short.
@@ -143,8 +143,8 @@ The version defaults to `v0.13.1` and can be overridden, for example with an
 older release: `XWWW_VERSION=v0.12.1 ./scripts/install-xwww.sh`. The hyprland
 repository ships an equivalent installer (`install.sh`, `XWWW_VERSION=...`).
 
-`davincix` resolves the binaries in this order: `DAVINCIX_XWWW` /
-`DAVINCIX_XWWW_DAEMON` environment variables, then `~/.local/bin`, then the
+`davinci` resolves the binaries in this order: `DAVINCI_XWWW` /
+`DAVINCI_XWWW_DAEMON` environment variables, then `~/.local/bin`, then the
 `PATH` (where `/usr/local/bin` lives). A development build can therefore live
 in `~/.local/bin` without touching the system copy.
 
@@ -157,36 +157,36 @@ collection lives:
 cp -r my-scene ~/.config/hypr/wallpapers/
 ```
 
-`davincix import` copies loose image or video files and prepares their
+`davinci import` copies loose image or video files and prepares their
 thumbnails; scene directories are installed by copying them (or by cloning this
 collection).
 
 The directory must contain `scene.js`; a `base.jpg` cover is strongly
-recommended because it is what the picker shows. `davincix` scans recursively,
+recommended because it is what the picker shows. `davinci` scans recursively,
 so nested media files also appear (flattened as `sub__dir__pic.jpg`).
 
 Apply it like any wallpaper:
 
 ```sh
-davincix set ~/.config/hypr/wallpapers/my-scene
-davincix set ~/.config/hypr/wallpapers/my-scene --transition decrypt
+davinci set ~/.config/hypr/wallpapers/my-scene
+davinci set ~/.config/hypr/wallpapers/my-scene --transition decrypt
 ```
 
 The scene also appears in the Quickshell picker; selecting its card applies it
-with the configured entry transition. `davincix current` reports
+with the configured entry transition. `davinci current` reports
 `<dir>/scene.js` while a scene is running, and the last frame is cached to
 `current_wallpaper.png` for the lock screen and SDDM.
 
-The frame rate used by `davincix` defaults to 15 fps and can be changed per
+The frame rate used by `davinci` defaults to 15 fps and can be changed per
 invocation:
 
 ```sh
-DAVINCIX_SCENE_FPS=30 davincix set ~/.config/hypr/wallpapers/my-scene
+DAVINCI_SCENE_FPS=30 davinci set ~/.config/hypr/wallpapers/my-scene
 ```
 
 ### Thumbnails
 
-`davincix thumbs` prepares the picker thumbnails. For scenes, the thumbnail is
+`davinci thumbs` prepares the picker thumbnails. For scenes, the thumbnail is
 rendered from `base.jpg` (or `base.jpeg`, `base.png`, `base.webp`); without a
 cover the picker shows a placeholder. The cached thumbnail is named
 `scn_<name>.jpg`.
@@ -202,7 +202,7 @@ xwww scene render scene.js -o preview.png --size 1920x1080  # one frame
 xwww scene run    scene.js --fps 15 --palette equisdots     # live
 ```
 
-Useful flags: `--palette <source>`, `--timeout-ms <ms>` (default 100, davincix
+Useful flags: `--palette <source>`, `--timeout-ms <ms>` (default 100, davinci
 uses 2000), `--asset <path>` (extra asset directory, repeatable),
 `--palette-fade <ms>` and the entry transition flags. During development it is
 often enough to run the client against the live daemon with a low frame rate
@@ -399,7 +399,7 @@ global function. Colors are `"#rgb"`, `"#rrggbb"`, `"#rrggbbaa"` strings or
 
 - Rendering runs one frame at a time and must be synchronous.
 - Per-frame execution budget: `--timeout-ms` (100 ms by default, 2000 ms under
-  davincix). A frame that exceeds it is discarded.
+  davinci). A frame that exceeds it is discarded.
 - JavaScript memory is limited to 32 MB and the stack to 1 MB.
 - There is no filesystem, network, process or module access; `require` and
   `import` of external files do not exist. `Math`, `JSON` and `Date` are
@@ -430,13 +430,13 @@ if it stays inside the supported subset.
 | Gradient strokes | Strokes take a single solid color. | Split the path into short segments and set a color per segment. |
 | Blend modes (`globalCompositeOperation`), shadows (`shadowBlur`), filters (`filter: blur()`) | Not exposed by the canvas API. | Approximate with layered draws and `canvas.alpha`; there is no true additive or blur compositing. |
 | `getImageData` / `putImageData` | No pixel buffers are exposed to scenes. | Use `canvas.remap`, `canvas.image` and `canvas.image_tinted`; there is no per-pixel access. |
-| WebGL, WebGPU, shaders, three.js | Scenes are CPU 2D only. | Rewrite the effect with canvas 2D, or use a video wallpaper through `davincix` and `mpvpaper`. |
+| WebGL, WebGPU, shaders, three.js | Scenes are CPU 2D only. | Rewrite the effect with canvas 2D, or use a video wallpaper through `davinci` and `mpvpaper`. |
 | DOM, HTML, CSS, SVG | There is no browser environment. | Draw with the canvas API. |
 | `import`, `require`, npm packages | A scene is a single plain script. | Inline the code you need. |
 | `fetch`, `XMLHttpRequest`, `new Image()` with a URL | No network access. | Ship assets inside the scene directory and use `canvas.image`. |
 | `async` / `await`, Promises, `queueMicrotask` | Promises are not awaited; a frame must be synchronous. | Keep `render` synchronous; precompute in `setup`. |
 | Mouse, keyboard, touch and scroll events | Scenes are click-through by design. | React to palette and time; a future event provider is not implemented yet. |
-| Video and GIF playback | Not part of the scene engine. | Use `davincix` with a video file (rendered by `mpvpaper`). |
+| Video and GIF playback | Not part of the scene engine. | Use `davinci` with a video file (rendered by `mpvpaper`). |
 | Filesystem, process or environment access | Sandboxed runtime, no standard modules. | Use local assets and the palette; read nothing else. |
 
 ### Examples
@@ -524,7 +524,7 @@ for (let i = 0; i < 120; i++) {
 ## Debugging
 
 - `log(...)` writes to stderr with a `[scene]` prefix; when running under
-  `davincix` the output goes to the kernel log
+  `davinci` the output goes to the kernel log
   (`$XDG_RUNTIME_DIR/quickshell/logs/xwww_debug.log` in the equisdots desktop).
 - `xwww scene check scene.js` reports syntax errors.
 - `xwww scene render scene.js -o out.png --size 1920x1080` renders one frame
@@ -538,7 +538,7 @@ for (let i = 0; i < 120; i++) {
     `setup` or reduce it.
   - Empty or stale frames: a thrown error keeps the previous frame; check
     `log` output.
-- Remember that a scene directory applied through `davincix` runs from its
+- Remember that a scene directory applied through `davinci` runs from its
   installed location, so edit the copy under the wallpaper directory (or
   re-import after editing).
 
@@ -553,8 +553,8 @@ for (let i = 0; i < 120; i++) {
 4. Regenerate thumbnails and test the entry transition locally:
 
    ```sh
-   davincix thumbs
-   davincix set ~/.config/hypr/wallpapers/my-scene --transition decrypt
+   davinci thumbs
+   davinci set ~/.config/hypr/wallpapers/my-scene --transition decrypt
    ```
 
 5. Open a pull request. Documentation and code in this repository are covered
@@ -567,6 +567,6 @@ for (let i = 0; i < 120; i++) {
   and authoring summary for this collection.
 - [xwww scene engine documentation](https://github.com/x-ports/xwww/blob/main/docs/scene.md):
   full engine scope, providers roadmap and internal architecture.
-- [davincix interactive scenes](https://github.com/equisdots/davincix/blob/main/docs/interactive-scenes.md):
+- [davinci interactive scenes](https://github.com/equisdots/davinci/blob/main/docs/interactive-scenes.md):
   kernel integration, state and restore.
 - [xwww source](https://github.com/x-ports/xwww): CLI reference and releases.

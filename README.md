@@ -30,7 +30,7 @@ https://github.com/equisdots/background/releases/latest/download/background.zip
 
 The installer ([`equisdots/dots`](https://github.com/equisdots/dots)) downloads
 and unpacks that archive during setup. The wallpaper fetch/apply logic itself
-lives in [`equisdots/davincix`](https://github.com/equisdots/davincix).
+lives in [`equisdots/davinci`](https://github.com/equisdots/davinci).
 
 Besides the picture packs, the **interactive scenes** (dynamic wallpapers for
 the `xwww` scene engine) are committed under `scenes/`; the installer offers
@@ -75,7 +75,7 @@ licensed for redistribution.
 | [dots](https://github.com/equisdots/dots) | Meta installer and updater: clones and wires the whole stack |
 | [hyprland](https://github.com/equisdots/hyprland) | Hyprland compositor config (Lua), scripts, installer |
 | [shell](https://github.com/equisdots/shell) | Quickshell UI (bar, panels, editor, popups) |
-| [davincix](https://github.com/equisdots/davincix) | Wallpaper fetch/apply kernel |
+| [davinci](https://github.com/equisdots/davinci) | Wallpaper fetch/apply kernel |
 | [login](https://github.com/equisdots/login) | Minimal SDDM login theme |
 
 ## License
