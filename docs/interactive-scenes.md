@@ -21,7 +21,7 @@ A scene is a directory inside the wallpaper collection:
   <assets>     optional; stencils or images loaded with canvas.image
 ```
 
-- `davincix` detects any directory containing `scene.js` and lists it as one
+- `davinci` detects any directory containing `scene.js` and lists it as one
   entry in the wallpaper picker; the thumbnail is rendered from `base.jpg` (or
   `base.jpeg` / `base.png` / `base.webp`). If neither exists the picker shows a
   placeholder, so a cover is strongly recommended.
@@ -91,8 +91,8 @@ index in the corner and the palette name and slug in the footer.
 3. Regenerate thumbnails and test the entry transition:
 
    ```sh
-   davincix thumbs
-   davincix set ~/.config/hypr/wallpapers/<scene-name> --transition decrypt
+   davinci thumbs
+   davinci set ~/.config/hypr/wallpapers/<scene-name> --transition decrypt
    ```
 
 Palette changes are picked up within about a second; the scene only re-sends a
