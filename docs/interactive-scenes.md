@@ -71,6 +71,26 @@ description, assets, license) lives in
 | `matrix-veil` | A live 2×2 linear map | The transformed grid, the images of the basis vectors and of the unit square (`|det A|`), plus a rider on a rotating point. |
 | `kepler-veil` | Eccentric Kepler orbit | The sun at the focus, the constant-time swept wedge widening near aphelion, live radius/velocity vectors and the orbit formula. |
 | `complex-veil` | n-th roots of unity on the Argand plane | Rotating polygon, spokes, unit circle and a single-dot tail on the highlighted root; `n` steps 3..12. |
+| `nextgen-astronaut-blob-tracking` | Astronaut artwork split into luminance (`base_luma.jpg`), soft color (`base_soft.png`), accent stencil (`accent.png`) and backdrop (`bg_luma.jpg`) | Palette-reactive blob-tracking render; scanlines and vignette are procedural. |
+| `nextgen-face-recognition` | Portrait artwork split the same way (luminance, soft color, accent stencil, backdrop) | Palette-reactive facial-recognition render; scanlines and vignette are procedural. |
+| `oni-track-01-blue-demon` | Blue demon oni artwork | Blob-tracking series 01/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-02-yin-yang` | Yin-yang oni artwork | Blob-tracking series 02/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-03-sakura-neko` | Sakura cat oni artwork | Blob-tracking series 03/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-04-bloom-decay` | Blooming oni artwork | Blob-tracking series 04/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-05-crimson-protocol` | Crimson oni artwork | Blob-tracking series 05/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-06-watcher` | Watcher eye artwork | Blob-tracking series 06/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-07-shadow-blade` | Shadow samurai artwork | Blob-tracking series 07/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-08-scarlet-rage` | Scarlet rage artwork | Blob-tracking series 08/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-09-horned-ghost` | Horned ghost artwork | Blob-tracking series 09/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-10-silent-roots` | Silent roots artwork | Blob-tracking series 10/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-11-two-faces` | Two-faced mask artwork | Blob-tracking series 11/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-12-night-shinobi` | Night shinobi artwork | Blob-tracking series 12/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-13-great-wave` | Great wave artwork | Blob-tracking series 13/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-14-petals-wire` | Cyber rose artwork | Blob-tracking series 14/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-15-crimson-veil` | Crimson veil artwork | Blob-tracking series 15/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-16-eastern-static` | Eastern static artwork | Blob-tracking series 16/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-17-cross-cut` | Cross-cut artwork | Blob-tracking series 17/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
+| `oni-track-18-neon-botanica` | Neon botanica artwork | Blob-tracking series 18/18: palette-remapped luminance, tracked feature points, four annotated region clusters, stencil layers and a HUD. |
 
 ## The card block
 

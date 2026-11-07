@@ -3,6 +3,20 @@
 All notable changes to the wallpaper collection are documented here.
 Dates use YYYY-MM-DD.
 
+## [2026-11-07]
+
+### Added
+
+- Eighteen `oni-track-*` scenes (01–18), each with a `base.jpg` cover:
+  palette-reactive oni artwork with palette-remapped luminance layers,
+  tracked feature points, four annotated region clusters, decoded stencil
+  backgrounds and a HUD with feature-response histogram and analysis flow.
+- Two `nextgen-*` scenes, each with a `base.jpg` cover:
+  `nextgen-astronaut-blob-tracking` and `nextgen-face-recognition`, splitting
+  the artwork into luminance, soft-color and accent layers with procedural
+  scanlines and vignette.
+- `scenes/index.json`: metadata entries for the twenty new scenes.
+
 ## [2026-10-04]
 
 ### Added
