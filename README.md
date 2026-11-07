@@ -95,8 +95,22 @@ This repository mixes content types, and the license depends on the material:
   licensing is handled separately from the artwork.
 
 No trademark rights are granted: the *equisdots* and *xscriptor* names and
-logos remain the property of their owner. Third-party images are only
+logos remain the property of their owner. New third-party images are only
 accepted with explicit redistribution rights (see
-[CONTRIBUTING.md](CONTRIBUTING.md)).
+[CONTRIBUTING.md](CONTRIBUTING.md)); existing scene assets are covered by the
+content notice below.
+
+## Content notice
+
+Some images in the `scenes/` section may be sourced from the internet and
+modified to work with the xwww scene engine. Those images are excluded from
+this repository's licensing terms, remain the property of their original
+owners, and are used in a non-commercial project. If you own one of these
+images and believe it does not belong here, contact the maintainer through
+any support channel listed on
+[xscriptor's GitHub profile](https://github.com/xscriptor) and request its
+removal; the work will be removed promptly.
+
+[Read the full content notice](docs/content-notice.md)
 
 © 2026 xscriptor and contributors.
