@@ -14,20 +14,22 @@ or documentation created by xscriptor and the equisdots contributors.
 ## Licensing
 
 Third-party images covered by this notice are excluded from the licensing
-terms of this repository, including the CC BY 4.0 license used for original
-artwork and documentation and the MIT license used for source code. No
-ownership is claimed over those images, and no license is granted for their
-reuse.
+terms of this repository. They are not covered by the AGPL-3.0-or-later that
+applies to the original code and original content created by xscriptor and the
+equisdots contributors. No ownership is claimed over those images, and no
+license is granted for their reuse.
 
-This is a non-commercial project. The images are included only as functional
-parts of the scene collection and are not sold, licensed, or offered as
-standalone assets.
+These third-party images are excluded from the AGPL and are not licensed for
+commercial redistribution. They are included only as functional parts of the
+scene collection and are not sold, licensed, or offered as standalone assets.
+If you use the project commercially, replace or remove them.
 
 ## Removal requests
 
 If you are the original owner of an image included in a scene and believe it
 does not belong in this project, you can request its removal. Please contact
-the maintainer through any support or contact channel listed on
+the maintainer at [x@xscriptor.com](mailto:x@xscriptor.com) or through any
+support or contact channel listed on
 [xscriptor's GitHub profile](https://github.com/xscriptor), including the
 repository issue tracker.
 
@@ -44,6 +46,7 @@ appropriate. No commercial activity is being carried out with the material.
 
 ## Contact
 
+- Email: [x@xscriptor.com](mailto:x@xscriptor.com)
 - GitHub: [github.com/xscriptor](https://github.com/xscriptor)
 - Repository issues: [github.com/equisdots/background/issues](https://github.com/equisdots/background/issues)
 
