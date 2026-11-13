@@ -80,25 +80,11 @@ licensed for redistribution.
 
 ## License
 
-This repository mixes content types, and the license depends on the material:
+Original code and original content: **AGPL-3.0-or-later** — see [LICENSE](LICENSE). Copyright (C) 2026 xscriptor <x@xscriptor.com>.
 
-- **Wallpaper images and artwork** are licensed under
-  [Creative Commons Attribution 4.0 International](LICENSE) (CC BY 4.0): share
-  and adapt them, even commercially, as long as you credit **xscriptor /
-  Equis Dots** and link to the license. Suggested credit line:
-  `Wallpapers by xscriptor — equisdots/background (CC BY 4.0)`.
-- **Documentation** (Markdown, guides, metadata) is shared under the same
-  CC BY 4.0 terms.
-- **Source code** (scripts, tooling) is not covered by CC BY 4.0. It may be
-  available under the [MIT License](LICENSE-MIT) unless a file or release
-  states otherwise. CC licenses are not recommended for software, so code
-  licensing is handled separately from the artwork.
+Third-party images and assets, including unknown-origin images under `scenes/`, are **excluded** from the AGPL and remain the property of their authors; see [CREDITS.md](CREDITS.md) and [docs/content-notice.md](docs/content-notice.md). If you are an author and want a license/credit added, or want an image removed, contact x@xscriptor.com.
 
-No trademark rights are granted: the *equisdots* and *xscriptor* names and
-logos remain the property of their owner. New third-party images are only
-accepted with explicit redistribution rights (see
-[CONTRIBUTING.md](CONTRIBUTING.md)); existing scene assets are covered by the
-content notice below.
+Code releases published before 2026-11-13 were MIT and remain MIT; original content releases used CC BY 4.0.
 
 ## Content notice
 
