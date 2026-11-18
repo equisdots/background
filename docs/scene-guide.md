@@ -139,7 +139,7 @@ client and daemon in `/usr/local/bin`:
 ./scripts/install-xwww.sh
 ```
 
-The version defaults to `v0.13.1` and can be overridden, for example with an
+The version defaults to `v0.13.2` and can be overridden, for example with an
 older release: `XWWW_VERSION=v0.12.1 ./scripts/install-xwww.sh`. The hyprland
 repository ships an equivalent installer (`install.sh`, `XWWW_VERSION=...`).
 
@@ -407,7 +407,7 @@ global function. Colors are `"#rgb"`, `"#rrggbb"`, `"#rrggbbaa"` strings or
 
 ## Allowed and not allowed
 
-This section is written against `xwww` 0.13.1. A scene will run unmodified only
+This section is written against `xwww` 0.13.2. A scene will run unmodified only
 if it stays inside the supported subset.
 
 ### Allowed
